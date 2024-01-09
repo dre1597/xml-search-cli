@@ -4,7 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
 const { Command } = require('commander');
-const parseString = promisify(require('xml2js').parseString);
 
 const program = new Command();
 
